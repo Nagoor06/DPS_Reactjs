@@ -1,0 +1,20 @@
+/* WelcomePage.css */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./assets/imgbg.jpg'); /* Update this path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .welcome-content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+
+ 

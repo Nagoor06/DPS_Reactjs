@@ -1,0 +1,25 @@
+/* src/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.calligraphy-text {
+  font-family: 'Dancing Script', cursive;
+  border-right: 0.1em solid white; /* The typing cursor effect */
+  white-space: nowrap;
+  overflow: hidden; /* Ensures text is hidden until the animation reveals it */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+}
